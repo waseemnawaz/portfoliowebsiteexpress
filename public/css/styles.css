@@ -1,0 +1,573 @@
+body {
+	background-color: white;
+}
+
+/*** Navigation bar typography ***/
+
+.home a {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif; 
+	color: black;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0 15px;
+}
+
+.navbar-header button {
+	background-color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #BFCED3;
+}
+
+.navbar-inverse .navbar-brand a:hover {
+	color: #BFCED3;
+}
+
+.navbar-inverse {
+	background-image: url("../img/oja.jpg");
+	background-size: cover;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: black;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.navbar-inverse {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/*** Navigation bar layout ***/
+
+.nav {
+  z-index: 1;
+}
+
+.anchor {
+	padding-top: 70px;
+}
+
+.navbar-inverse {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar-fixed-top {
+	border: none;
+}
+
+body {
+  position: relative;
+} /* This is for the scrolling!*/
+
+/*** First page layout***/
+
+#intro {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.someintro {
+	margin-top: 5em;
+}
+
+.family {
+	margin: 0 auto;
+	width: 50%;
+}
+
+.someintro h3 {
+	text-align: center;
+}
+
+.firstpage h3, h2, p {
+	text-align: center;
+}
+
+.firstpage p {
+	text-align: justify;
+}
+
+.firstpage {
+	margin-top: 5em;
+}
+
+.threetexts {
+	margin-top: 5em;
+}
+
+.threetexts h3 {
+	text-align: center;
+}
+
+.fadez {
+	margin-bottom: 10px;
+}
+
+/*** First page typography ***/
+
+/*.someintro h3 {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+	font-size: 2.5em;
+}
+
+.someintro h3:hover {
+	color: #BFCED3;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}*/
+
+.firstpage p {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+	font-size: 1.2em;
+}
+
+.firstpage h3 {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+	font-size: 2.5em;
+	color: #c82d28;
+}
+
+.firstpage h3:hover {
+	color: #BFCED3;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.threetexts h3, p {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+}
+
+.threetexts h3 {
+	font-size: 1.5em;
+}
+
+.threetexts p {
+	font-size: 1em;
+}
+
+.threetexts h3:hover {
+	color: #BFCED3;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+/**** pic grey ****/
+
+.grey {
+	-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+/**** fade pics ****/
+
+.fadez {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fadez:hover {
+   opacity: 0.5;
+}
+
+/**** Upside down ****/
+
+.crazy {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.crazy:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+/*** About page layout ***/
+
+* { box-sizing: border-box; }
+
+#abt {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.abouta {
+	margin-top: 5em;
+}
+
+.leander h3 {
+	text-align: center;
+}
+
+.leander p {
+	text-align: justify;
+}
+
+.miskills {
+	text-align: center;
+	padding-top: 1em;
+}
+
+#primero {
+	margin-top: 5em;
+}
+
+.cv {
+	text-align: center;
+	margin-top: 5em;
+}
+
+.codingskillz {
+	padding-bottom: 1em;
+}
+
+/**** About Typography ***/
+
+.black {
+	background: black;
+	opacity: 0.4;
+}
+
+.miskills {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+	color: white;
+}
+
+.miskills {
+	font-size: 2.5em;
+}
+
+.codingskillz {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+	color: white;
+}
+
+#primero {
+	background-image: url("../img/caminante.jpg");
+	background-size: cover;
+}
+
+.header h3, p {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+}
+
+.header h3 {
+	font-size: 2.5em;
+}
+
+.leander p {
+	font-size: 1.2em;
+}
+
+.leander h3:hover {
+	color: #BFCED3;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+/*** Free bootstrap ***/
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.portfolio-item h3 {
+	text-align: center;
+}
+
+.portfolio-item p {
+	text-align: justify;
+}
+
+/*** Work layout ***/
+
+.workintro h3 {
+	text-align: center;
+}
+
+#work2 {
+  width: 80%;
+	margin: 0 auto;
+	margin-top: 5em;
+}
+
+.workintro {
+	margin-bottom: 2em;
+}
+
+/*** Work typography ***/
+
+#rowes h3, p {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+}
+
+#rowes a {
+	text-decoration: none;
+	color: black;
+}
+
+#rowesone h3, p {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+}
+
+#rowesone a {
+	text-decoration: none;
+	color: black;
+}
+
+.workintro h3, p {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+}
+
+.workintro h3 {
+	font-size: 2.5em;
+}
+
+.workintro p {
+	font-size: 1.2em;
+}
+
+.workintro h3:hover {
+	color: #BFCED3;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+/*** Contact page Typography ***/
+
+.contacts h3 {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+	font-size: 2.5em;
+	color: white;
+}
+
+.imail p {
+	font-family: Lucida Grande, Helvetica, Gill Sans, sans-serif;
+	font-size: 1.5em;
+	color: white;
+}
+
+a.mail {
+	text-decoration: none;
+	color: white;
+}
+
+.contacts h3:hover {
+	color: white;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+#kntkto {
+	background-image: url("../img/lisboaview.jpg");
+  background-size: cover;
+  height: 63em;
+}
+
+.black {
+	background: black;
+	opacity: 0.6;
+}
+
+label {
+	color: white;
+}
+
+/*** Contact page layout ***/
+
+/*#map {
+  height: 300px;
+  width: 100%;
+}*/
+
+.form-control {
+	width: 100%;
+}
+
+.contacts h3 {
+	text-align: center; 
+	margin-bottom: 1em;
+	padding-top: 1em;
+}
+
+#kntkto {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 5em;
+}
+
+.contactform {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+
+.imail p {
+	text-align: left;
+	padding-left: 2em;
+}
+
+.socialmediaz {
+	padding-left: 3em;
+}
+
+/**** Social Media buttons ****/
+
+/*.social {
+	margin: 10px;
+	display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}*/
+
+/*** Modal button ***/
+
+.modal-button {
+  float: right;
+  padding: 15px;
+}
+
+#modalembed {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
+/*** Footer ***/
+
+.copyright {
+	padding-top: 2em;
+	display: block;
+	text-align: center;
+	height: 5em;
+}
+
+/*** Media queries ***/
+
+@media (max-width: 480px) {
+ 	.someintro {
+		width: 100%;
+	}
+}
+
+/*@media (max-width: 480px) {
+ 	.contacts, h3 {
+    font-size: 1.2em;
+  }
+}*/
+
+@media (max-width: 480px) {
+ 	#kntkto, .navbar-inverse {
+ 		background-attachment: scroll;
+  }
+}
+
+@media (max-width: 480px) {
+ 	.home a {
+		font-weight: normal;
+		font-size: 1.1em;
+	}
+}
+
+@media (max-width: 480px) {
+ 	.first {
+		padding-left: 0em;
+	}
+}
+
+@media (max-width: 480px) {
+ 	.home a {
+ 		font-size: 1em;
+ 		font-weight: normal;
+	}
+}
+
+@media (max-width: 480px) {
+ 	.mail {
+ 		font-size: 0.7em;
+	}
+}
+
+@media (max-width: 480px) {
+ 	#intro h3 {
+ 		font-size: 1.4em;
+	}
+}
+
+@media (max-width: 480px) {
+ 	.threetexts h3 {
+ 		font-size: 1.2em;
+	}
+}
+
+@media (max-width: 480px) {
+ 	#abt h3 {
+ 		font-size: 1.4em;
+	}
+}
+
+@media (max-width: 480px) {
+ 	#primero h3 {
+ 		font-size: 2em;
+	}
+}
+
+@media (max-width: 480px) {
+ 	#work2 h3 {
+ 		font-size: 1.4em;
+	}
+}
+
+@media (max-width: 480px) {
+ 	#intro {
+ 		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+ 	#abt {
+ 		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+ 	#work2 {
+ 		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+ 	#kntkto {
+ 		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+ 	.family {
+ 		width: 100%;
+	}
+}
+
