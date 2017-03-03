@@ -3,7 +3,8 @@ var path = require('path');// path to locate a folder
 var app = express();
 
 // Define the port to run on
-app.set('port', 3001);
+const port = process.env.PORT || 3001
+app.set('port', port);
 
 //app.use('/public', express.static(path.join(__dirname + '/public')));
 //connects the path to the static pages
