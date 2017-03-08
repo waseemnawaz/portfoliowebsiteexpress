@@ -20,15 +20,15 @@ app.set('port', port);
 app.use('/public', express.static('public'))
 
 app.get("/", function(req, res){
-    res.render("index.ejs", {});
+    res.render("pages/index.ejs", {});
 })
 
 app.get("/abt", function(req, res){
-    res.render("about.ejs");
+    res.render("pages/about.ejs");
 })
 
 app.get("/kntkto", function(req, res){
-    res.render("contact.ejs");
+    res.render("pages/contact.ejs");
 })
 
 // Listen for requests
